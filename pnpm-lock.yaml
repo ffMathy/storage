@@ -262,6 +262,9 @@ importers:
       '@vercel/postgres':
         specifier: workspace:0.3.0
         version: link:../postgres
+      server-only:
+        specifier: 0.0.1
+        version: 0.0.1
     devDependencies:
       '@babel/core':
         specifier: 7.19.6
